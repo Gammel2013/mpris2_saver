@@ -1,0 +1,10 @@
+certifi==2025.1.31
+charset-normalizer==3.4.1
+dbus-python==1.4.0
+idna==3.10
+mpris2==1.0.2
+pipewire_python==0.2.3
+pycairo==1.27.0
+PyGObject==3.52.3
+requests==2.32.3
+urllib3==2.3.0
