@@ -6,7 +6,7 @@ from time import sleep
 from json import dumps
 
 from recorder import Recorder
-from config import pwTarget, playerTarget
+from config import pwTarget, playerTarget, recorderConfig
 
 
 if __name__ == "__main__":
@@ -20,7 +20,7 @@ if __name__ == "__main__":
         try:
             # Initialize recorder
             if not recorder:
-                recorder = Recorder()
+                recorder = Recorder(**recorderConfig)
                 continue
 
             # Check PWController
