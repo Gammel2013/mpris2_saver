@@ -1,7 +1,7 @@
 debug = False
 
-musicbrainz_headers = {
-    "User-Agent": "MPRIS2_SPOTIFY_SAVER/0.0.1"
+musicbrainzHeaders = {
+    "User-Agent": "MPRIS2_SAVER/0.0.1"
 }
 
 # Refresh rate of script, can be used to reduce performance hit

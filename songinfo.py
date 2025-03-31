@@ -2,7 +2,7 @@ from urllib import parse as parse_url
 import requests
 
 from utils import debug_print
-from config import musicbrainz_headers
+from config import musicbrainzHeaders
 
 
 class SongInfo(object):
@@ -69,7 +69,7 @@ class SongInfo(object):
             try:
                 ret = requests.get(
                     musicbrainzUrl+query,
-                    headers=musicbrainz_headers
+                    headers=musicbrainzHeaders
                 ).json()
                 release_id = ret["releases"][idx]['id']
             except IndexError:
